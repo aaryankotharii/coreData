@@ -8,13 +8,26 @@
 
 import UIKit
 
+
 class ViewController: UIViewController {
 
+    @IBOutlet weak var nameTextField: UITextField!
+    
+    @IBOutlet weak var addressTextField: UITextField!
+    
+    @IBOutlet weak var cityTextField: UITextField!
+    
+    @IBOutlet weak var mobileTextField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func saveClicked(_ sender: UIButton) {
+        let dict = ["name":nameTextField.text,"address":addressTextField.text,"city":cityTextField.text,"mobile":mobileTextField.text]
+        
+        DataBaseHelper.shareInstance.save(object: dict as! [String : String])
+    }
+    
 }
 
