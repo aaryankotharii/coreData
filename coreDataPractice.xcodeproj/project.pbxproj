@@ -51,8 +51,6 @@
 		5B30C1CD23EFE7C8001C20BD = {
 			isa = PBXGroup;
 			children = (
-				5B30C1F023EFE7F6001C20BD /* Student+CoreDataClass.swift */,
-				5B30C1F123EFE7F6001C20BD /* Student+CoreDataProperties.swift */,
 				5B30C1D823EFE7C8001C20BD /* coreDataPractice */,
 				5B30C1D723EFE7C8001C20BD /* Products */,
 				5B30C1F423EFE848001C20BD /* Frameworks */,
@@ -75,6 +73,8 @@
 				5B30C1DD23EFE7C8001C20BD /* ViewController.swift */,
 				5B30C1F723EFE9E3001C20BD /* DataBaseHelper.swift */,
 				5B30C1DF23EFE7C8001C20BD /* Main.storyboard */,
+				5B30C1F023EFE7F6001C20BD /* Student+CoreDataClass.swift */,
+				5B30C1F123EFE7F6001C20BD /* Student+CoreDataProperties.swift */,
 				5B30C1E523EFE7CA001C20BD /* Assets.xcassets */,
 				5B30C1E723EFE7CA001C20BD /* LaunchScreen.storyboard */,
 				5B30C1EA23EFE7CA001C20BD /* Info.plist */,
