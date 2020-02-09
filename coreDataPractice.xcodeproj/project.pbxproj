@@ -18,6 +18,8 @@
 		5B30C1F323EFE7F6001C20BD /* Student+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B30C1F123EFE7F6001C20BD /* Student+CoreDataProperties.swift */; };
 		5B30C1F623EFE848001C20BD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B30C1F523EFE848001C20BD /* CoreData.framework */; };
 		5B30C1F823EFE9E3001C20BD /* DataBaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B30C1F723EFE9E3001C20BD /* DataBaseHelper.swift */; };
+		5B30C1FA23F0905D001C20BD /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B30C1F923F0905D001C20BD /* TableViewCell.swift */; };
+		5B30C1FC23F0906E001C20BD /* dataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B30C1FB23F0906E001C20BD /* dataViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		5B30C1F123EFE7F6001C20BD /* Student+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		5B30C1F523EFE848001C20BD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		5B30C1F723EFE9E3001C20BD /* DataBaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseHelper.swift; sourceTree = "<group>"; };
+		5B30C1F923F0905D001C20BD /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		5B30C1FB23F0906E001C20BD /* dataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 				5B30C1DD23EFE7C8001C20BD /* ViewController.swift */,
 				5B30C1F723EFE9E3001C20BD /* DataBaseHelper.swift */,
 				5B30C1DF23EFE7C8001C20BD /* Main.storyboard */,
+				5B30C1FB23F0906E001C20BD /* dataViewController.swift */,
+				5B30C1F923F0905D001C20BD /* TableViewCell.swift */,
 				5B30C1F023EFE7F6001C20BD /* Student+CoreDataClass.swift */,
 				5B30C1F123EFE7F6001C20BD /* Student+CoreDataProperties.swift */,
 				5B30C1E523EFE7CA001C20BD /* Assets.xcassets */,
@@ -163,10 +169,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B30C1F823EFE9E3001C20BD /* DataBaseHelper.swift in Sources */,
+				5B30C1FA23F0905D001C20BD /* TableViewCell.swift in Sources */,
 				5B30C1F323EFE7F6001C20BD /* Student+CoreDataProperties.swift in Sources */,
 				5B30C1DE23EFE7C8001C20BD /* ViewController.swift in Sources */,
 				5B30C1DA23EFE7C8001C20BD /* AppDelegate.swift in Sources */,
 				5B30C1DC23EFE7C8001C20BD /* SceneDelegate.swift in Sources */,
+				5B30C1FC23F0906E001C20BD /* dataViewController.swift in Sources */,
 				5B30C1E423EFE7C8001C20BD /* coreDataPractice.xcdatamodeld in Sources */,
 				5B30C1F223EFE7F6001C20BD /* Student+CoreDataClass.swift in Sources */,
 			);

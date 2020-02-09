@@ -29,5 +29,14 @@ class ViewController: UIViewController {
         DataBaseHelper.shareInstance.save(object: dict as! [String : String])
     }
     
+    
+    @IBAction func showClicked(_ sender: UIButton) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        
+        let vc = storyboard.instantiateViewController(identifier: "dataViewController") as? dataViewController
+        
+        self.navigationController?.pushViewController(vc!, animated: true)
+    }
+    
 }
 
